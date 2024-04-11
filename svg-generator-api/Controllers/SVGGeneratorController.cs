@@ -6,10 +6,10 @@ namespace svg_generator_api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class SVGGenerator : ControllerBase
+    public class SVGGeneratorController : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        public SVGGenerator(ILogger<WeatherForecastController> logger)
+        public SVGGeneratorController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }
